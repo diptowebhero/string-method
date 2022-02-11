@@ -76,3 +76,20 @@
 //var name = "i am dipto das";
 // console.log(name.split());return [ 'i am dipto das' ]
 //console.log(name.split(' '));//return [ 'i', 'am', 'dipto', 'das' ]
+
+//(11) replace();
+//var str = "i am dipto das";
+//var d = str.replace("dipto","dip");//প্রথম প্যরামিটার হবে কোন ওয়ার্ড টাকে replace করতে চান,২য় প্যরামিটার হবে কি দিয়ে replace করতে চান, প্রথম যেটার সাথে ম্যাচ হবে সেটাকেই replace করবে।। To replace case insensitive।।
+// console.log(d);
+
+//(12)includes 
+let text = "Hello world, welcome to the universe.";
+//console.log(text.includes("worlds")); //return true যদি স্ট্রিং এর মধ্যে ওয়ার্ডটা খুজে না পায় থাহলে false return  করবে..
+console.log(text.includes("world",12));//০ থেকে ১২ index কেটে নিয়ে তারপরের index/word  গুলুতে খুজে দেখবে...ওয়ার্ডটা আছে কিনা...।//return false
+
+
+// var num = "7";
+// var g = num.padStart(5,9);//return 79999
+// var f = num.padEnd(5,9); //return 99997
+// console.log(f);
+// console.log(g);
